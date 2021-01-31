@@ -1,0 +1,9 @@
+Bajo ningún concepto puede existir un árbol que sea a la vez BST y POT.
+Esto se debe a que para cualquier sub arbol de 3 nodos del arbol BST tal que
+
+         A
+        / \
+       B   C
+
+Se cumple que B > A > C. Pero si fuese un POT, al colocarse esa B se habría intercambiado 
+por A, ya que es menor que esta, incumpliendo así las propiedades del BST.
